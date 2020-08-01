@@ -1,0 +1,11 @@
+spring:
+  activemq:
+    broker-url: tcp://192.168.44.151:61616
+    password: admin
+    user: admin
+  jms:
+    pub-sub-domain: false
+
+myqueue: boot-activemq-queue
+server:
+  port: 8082
